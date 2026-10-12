@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="txtusername" id="" placeholder="hanya huruf" pattern="[A-Za-z ]"></td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td><input type="password" name="txtpassword" id="" placeholder="min 6 max 8 karakter" pattern="[A-Za-z0-9]+ {6,8}"></td>
+            </tr>
+            <tr>
+                <td>alamat</td>
+                <td><textarea name="txtalamat" id="" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td><input type="radio" name="rad_jkl" id="">Pria <input type="radio" name="rad_jkl" id="">Wanita</td>
+            </tr>
+            <tr>
+                <td>Jurusan</td>
+                <td>
+                    <select name="txtjur" id="">
+                        <optgroup label="FTD">
+                            <option value="TI">Teknik Informatika</option>
+                            <option value="SK">Sistem Komputer</option>
+                            <option value="DKV">Desain Komunikasi Visual</option>
+                        </optgroup>
+                        <optgroup label="FEB">
+                            <option value="AK">Akuntansi</option>
+                            <option value="MJ">Manajemen</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td><input type="date" name="txttgl" id=""></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Kirim" name="cmdkirim"> <input type="reset" value="Batal" name="cmdbatal"> <input type="button" value="Tombol" name="cmdok"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
