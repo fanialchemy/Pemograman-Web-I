@@ -1,0 +1,31 @@
+.satu {
+    width: 300px;
+    height: 300px;
+    background-color: limegreen;
+}
+
+.dua {
+    
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    /*atau bisa juga memakai kombinasi bottom dan right dengan nilai kebalikan menggunakan minus */
+}
+
+.tiga {
+    
+    width: 300px;
+    height: 300px;
+    background-color: gold;
+}
+
+.container {
+    width: 50%;
+    height: 1000px;
+    border: 5px solid black;
+    margin: 0 auto;
+    position: relative;
+}
