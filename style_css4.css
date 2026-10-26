@@ -9,7 +9,7 @@
     width: 300px;
     height: 300px;
     background-color: violet;
-    position: absolute;
+    position: fixed;
     top: 50px;
     left: 20px;
     /*atau bisa juga memakai kombinasi bottom dan right dengan nilai kebalikan menggunakan minus */
